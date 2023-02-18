@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+.content {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+}
+
+[class*="_containers"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
+}
+
+.title {
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6;
+}
+
+
+.text_container {
+   max-width: 816px;
+   margin: 0 auto 80px;
+
+}
+
+.text_container p {
+   margin-bottom: 30px;
+}
+
+.content_containers h1 {
+   margin-bottom: 40px;
+}
+
+
+.image1_container {
+
+   max-width: 100%;
+   margin-bottom: 80px;
+
+}
+
+.text_container h2 {
+   max-width: 605px;
+   margin-bottom: 40px;
+}
+
+.image23_container {
+   font-size: 0;
+   margin-bottom: 80px;
+}
+
+.image2 {
+   margin-right: 30px;
+}
+
+.content-image {
+   max-width: 1440px;
+   margin: 0 auto 100px;
+}
+
+
+.image4 {
+   max-width: 100%;
+}
+
+.text_container h3 {
+   max-width: 605px;
+   margin-bottom: 100px;
+}
+
+.image56_container {
+   max-width: 1270px;
+   margin: 0 auto 100px;
+}
+
+.image5 {
+   margin-right: 30px;
+}
+
+.block {
+   margin-bottom: 20px;
+   border: 5px solid hwb(157 0% 0%);
+   outline: 5px solid red;
+   box-shadow: 0px 0px 20px 0px #000;
+}
+
+.inline {
+   border: 5px solid red;
+   outline: 5px solid rgb(123, 255, 0);
+   box-shadow: 0px 0px 20px 0px #000;
+}
+
+.inline-block {
+   margin-bottom: 20px;
+   border: 5px solid rgb(47, 0, 255);
+   outline: 5px solid red;
+   box-shadow: 0px 0px 20px 0px #000;
+}
