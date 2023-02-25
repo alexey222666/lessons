@@ -1,0 +1,189 @@
+@import url("reset.css");
+
+.content {}
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto 100px;
+
+}
+
+.block1 {
+   background: url("../img/img1.jpg") 50% / cover no-repeat;
+}
+
+.sub-block1__container {
+   padding-left: 15px;
+   padding-right: 15px;
+
+}
+
+.sub-block1__container h1 {
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6;
+   color: #F8F9FA;
+   padding-bottom: 15px;
+}
+
+.sub-block1__container p:first-of-type {
+   font-family: 'Poppins';
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 1.67;
+   color: #E5E5E5;
+   padding-top: 365px;
+   padding-bottom: 15px;
+}
+
+.sub-block1__container p:last-of-type {
+   font-family: 'Poppins';
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 1.67;
+   color: #E5E5E5;
+   padding-bottom: 100px;
+}
+
+.block2 {
+   font-family: 'Inter';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 0.94;
+   color: #637381;
+}
+
+.sub-block2__container {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.block2 ul:not(:last-child) {
+   margin-bottom: 60px;
+}
+
+ul li {
+   padding-bottom: 18px;
+}
+
+.name {
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 28px;
+   padding-bottom: 45px;
+   color: #212836;
+
+
+}
+
+[class*="__bk"] li::before {
+   content: "";
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   margin-bottom: -5px;
+   color: #637381;
+}
+
+
+.list1__bk li::before {
+   background: url('../img/icons/icon1.jpg') 0 0 no-repeat;
+   width: 8px;
+   height: 8px;
+   margin-bottom: 1px;
+}
+
+.list2__bk li::before {
+   background: url('../img/icons/icon2.jpg') 0 0 no-repeat;
+}
+
+.list3__bk li::before {
+   background: url('../img/icons/icon3.jpg') 0 0 no-repeat;
+}
+
+.list4__bk li::before {
+   background: url('../img/icons/icon4.jpg') 0 0 no-repeat;
+}
+
+.list5__bk li::before {
+   background: url('../img/icons/icon5.jpg') 0 0 no-repeat;
+}
+
+.list6__bk li::before {
+   background: url('../img/icons/icon6.jpg') 0 0 no-repeat;
+}
+
+.block3 {
+   background: url(../img/img3.png) 76% 50% no-repeat, url(../img/img2.png) 50% / cover no-repeat;
+   font-family: 'Inter';
+   padding: 145px 15px 146px 15px;
+
+}
+
+.sub-block3__containers {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.text1 {
+   padding-bottom: 13px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 1.33;
+   color: #3056D3;
+}
+
+.text1:hover {
+   transition: all 1s;
+   color: red;
+
+}
+
+.text2 {
+   padding-bottom: 15px;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.25;
+}
+
+.text3 {
+   padding-bottom: 35px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+.button1 {
+   width: 139px;
+   height: 44px;
+   background: #3056D3;
+   border-radius: 30px;
+}
+
+.button1:hover {
+   background: #c2d652;
+}
+
+.button1-text {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 10px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #FFFFFF;
+}
+
+.button1-text:hover {
+   transition: all 1s;
+   color: #2cd843;
+
+}
