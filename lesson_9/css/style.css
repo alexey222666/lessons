@@ -1,0 +1,72 @@
+@import url("reset.css");
+
+.conteiner {
+   max-width: 1270px;
+   margin: 0 auto 100px;
+}
+
+[class*="_text"] {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 1.67;
+}
+
+.title {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 1.67;
+}
+
+.content {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.block1 {
+   padding-top: 40px;
+   padding-bottom: 40px;
+
+}
+
+.block1_text {
+   padding-bottom: 30px;
+
+}
+
+.block2 {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.block2_text {
+   padding-bottom: 30px;
+}
+
+.block3_text {
+   padding-bottom: 30px;
+}
+
+.block4 {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.block4_text {
+   padding-bottom: 30px;
+}
+
+.block5 {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.block5_text {
+   padding-bottom: 30px;
+}
+
+.content_block6 {
+   min-height: 270px;
+   background: no-repeat url(../img/icons/Dotted\ Shape.svg) 1%, no-repeat url(../img/icons/Oval.svg) 20%, no-repeat
+}
